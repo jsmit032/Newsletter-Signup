@@ -23,7 +23,7 @@ A step by step series of examples that tell you how to get a development env run
 
 ## Clone
 
-Clone this repo to your local machine using * (https://github.com/jsmit032/Newsletter-Signup.git)
+Clone this repo to your local machine using https://github.com/jsmit032/Newsletter-Signup.git
 
 > update and install this package first
 ```
@@ -35,7 +35,7 @@ brew update
 npm install
 ```
 
-> now install npm packages
+> now install npm packages within the root folder of the project on your Terminal
 ```
 npm install body-parser
 npm install dotenv
@@ -45,15 +45,17 @@ npm install request
 
 ## Create a Mail Chimp Account & copy your API Key & your list ID
 
-For API key, from Account Dashboard:
-Account >> Extras >> API keys
-Scroll to your API Keys
-Copy Key or click 'Create A Key' and copy once created
+#### For API key, from Account Dashboard:
+Markup :
+- Account >> Extras >> API keys
+- Scroll to your API Keys
+- Copy Key or click 'Create A Key' and copy once created
 
-For list ID, from Account Dashboard:
-Account >> View Audiences >> Click dropdown, select 'Settings'
-Scroll to bottom of page
-Copy unique id for 'Audience's Name'
+#### For list ID, from Account Dashboard:
+Markup :
+- Account >> View Audiences >> Click dropdown, select 'Settings'
+- Scroll to bottom of page
+- Copy unique id for 'Audience's Name'
 
 ## Create .env file in root folder of Project
 
