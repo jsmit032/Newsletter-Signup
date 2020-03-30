@@ -21,9 +21,13 @@ npm install request
 
 A step by step series of examples that tell you how to get a development env running
 
-## Clone
+#### Clone
 
-Clone this repo to your local machine using https://github.com/jsmit032/Newsletter-Signup.git
+Clone this repo to your local machine using https://github.com/jsmit032/Newsletter-Signup.git, like so...
+
+```
+git clone https://github.com/jsmit032/Newsletter-Signup.git
+```
 
 > update and install this package first
 ```
@@ -44,6 +48,7 @@ npm install request
 ```
 
 ## Create a Mail Chimp Account & copy your API Key & your list ID
+[Mail Chimp](https://mailchimp.com/developer/)
 
 #### For API key, from Account Dashboard:
 Markup :
